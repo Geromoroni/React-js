@@ -1,0 +1,8 @@
+
+.cart{
+    
+    text-decoration: none;
+    font-size: 21px;
+    transition: color 0.3s ease;
+    color: white;
+}
