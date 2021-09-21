@@ -1,3 +1,4 @@
+
 a{
     
     color: white;
@@ -8,13 +9,18 @@ h1{
     
     display: inline-block;
     color: white;
-    margin-right: 75rem;
+    margin-right: 65rem;
     
 }
 nav{
-    margin-top: 15px;
+    
     align-items: center;
     text-align: center;
     background-color: rgb(56, 54, 54);
-    margin-bottom: 15px;
+    
+}
+p{
+      padding:10px;
+    color: white;
+    display: inline-block;
 }
