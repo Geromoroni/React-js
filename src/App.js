@@ -1,5 +1,6 @@
-import ItemListContainer from "./ItemListContainer"
-import Nav from "./NavBar"
+import React from "react"
+import { PokemonCard } from "./PokemonCard/PokemonCard"
+import PokemonListContainer from "./PokemonListContainer"
 
 
 
@@ -9,9 +10,9 @@ const App = () => {
 return(
      <header className="test">
          
-            
-             <Nav />
-             <ItemListContainer saludo="Hi, im itemlistcontainer!"/>
+            <h1>HOLA</h1>
+           <PokemonListContainer/>
+           <PokemonCard/>
             
      </header>
      

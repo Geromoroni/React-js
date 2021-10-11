@@ -1,5 +1,5 @@
-
-import ItemListContainer from "./ItemListContainer"
+import { PokemonCard } from "./PokemonCard/PokemonCard"
+import PokemonListContainer from "./PokemonListContainer"
 import "./style.css"
 
 
@@ -10,8 +10,9 @@ const Nav = () => {
 
     return (
         <>
-        
-         <ItemListContainer/>
+    
+        <PokemonCard/>
+        <PokemonListContainer/>
                  
         </>
     )
